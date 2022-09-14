@@ -1,0 +1,52 @@
+package com.ssafy.jdbctest;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.mysql.cj.protocol.Resultset;
+
+public class DeleteTest {
+	
+	public DeleteTest() {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public Connection makeConnection() throws SQLException {
+		return DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/jdbc_test?serverTimezone=UTC&useUniCode=yes&characterEncoding=UTF-8", "ssafy", "ssafy");
+	}
+	
+	private int deleteByProductId(String product_id) {
+		int cnt = 0;
+		
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		Resultset rs = null;
+		
+		try {
+			conn = makeConnection();
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			
+		}
+		
+		return cnt;
+	}
+	
+	public static void main(String[] args) {
+		DeleteTest dt = new DeleteTest();
+		
+		String product_id = "GS30";
+		int cnt = dt.deleteByProductId(product_id);
+	}
+
+}

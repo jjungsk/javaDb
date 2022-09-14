@@ -1,0 +1,9 @@
+package com.ssafy.jdbctest;
+
+public class DriverLoadingTest {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

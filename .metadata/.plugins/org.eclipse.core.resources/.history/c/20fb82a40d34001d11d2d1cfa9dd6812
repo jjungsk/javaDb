@@ -1,0 +1,11 @@
+package com.ssafy.jdbctest;
+
+public class DeleteTest {
+	
+	
+	
+	public static void main(String[] args) {
+		DeleteTest dt = new DeleteTest();
+	}
+
+}

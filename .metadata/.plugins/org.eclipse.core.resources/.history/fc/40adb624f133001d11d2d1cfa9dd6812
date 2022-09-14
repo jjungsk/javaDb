@@ -1,0 +1,30 @@
+package com.ssafy.jdbctest;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+// 모든 상품 검색
+// product_id = GS23인 상품 검색
+// 가격이 150만원 이상인 상품 검색
+// 
+public class SelectTest {
+	
+	public SelectTest() {
+		try {
+			Class.forName("com.mysqul.cj.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public Connection makeConnection() throws SQLException {
+		return DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/jdbc_test?serverTimezone=UTC&useUniCode=yes&characterEncoding=UTF-8", "ssafy", "ssafy")
+	}
+	
+	public static void main(String[] args) {
+		SelectTest st = new SelectTest();
+	}
+
+}
