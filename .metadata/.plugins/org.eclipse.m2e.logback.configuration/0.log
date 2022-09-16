@@ -470,3 +470,61 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2022-09-14 18:21:04,905 [Worker-130: Launching DeleteTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-09-14 18:21:04,905 [Worker-130: Launching DeleteTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\jdbctest\src\test\resources
 2022-09-14 18:24:55,098 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-14 18:32:58,577 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-14 18:33:13,717 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 18:33:13,719 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\jdbctest\src\main\resources
+2022-09-14 18:33:13,720 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 18:33:13,720 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\jdbctest\src\test\resources
+2022-09-14 18:33:40,939 [Worker-0: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: mavenPro:mavenPro:0.0.1-SNAPSHOT @ C:\SSAFY\workspace\db\mavenPro\pom.xml.
+2022-09-14 18:33:41,074 [Worker-0: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenPro/src
+2022-09-14 18:33:41,075 [Worker-0: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /mavenPro/src/test/java because it overlaps with /mavenPro/src
+2022-09-14 18:33:41,155 [Worker-0: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-14 18:33:41,407 [Worker-0: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: mavenPro:mavenPro:0.0.1-SNAPSHOT @ C:\SSAFY\workspace\db\mavenPro\pom.xml.
+2022-09-14 18:33:41,464 [Worker-0: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenPro/src
+2022-09-14 18:33:41,464 [Worker-0: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /mavenPro/src/test/java because it overlaps with /mavenPro/src
+2022-09-14 18:33:41,506 [Worker-0: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-09-14 18:33:41,628 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 18:33:41,630 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\mavenPro\src\main\resources
+2022-09-14 18:33:41,631 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 18:33:41,632 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\mavenPro\src\test\resources
+2022-09-14 18:36:39,723 [Worker-0: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: mavenPro:mavenPro:0.0.1-SNAPSHOT @ C:\SSAFY\workspace\db\mavenPro\pom.xml.
+2022-09-14 18:36:39,755 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 18:36:39,755 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\mavenPro\src\main\resources
+2022-09-14 18:36:39,757 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 18:36:39,757 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\mavenPro\src\test\resources
+2022-09-14 18:36:40,920 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 18:36:40,921 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\mavenPro\src\main\resources
+2022-09-14 18:36:40,922 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 18:36:40,923 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\mavenPro\src\test\resources
+2022-09-14 18:59:33,368 [Worker-17: Resolving model org.eclipse.recommenders:index::zip:0.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.4.v20180909-1132.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.4.v20180909-1132.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.4.v20180909-1132.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.4.v20180909-1132.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-09-14 18:59:51,054 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 18:59:51,054 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\jdbctest\src\main\resources
+2022-09-14 18:59:51,055 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 18:59:51,055 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\jdbctest\src\test\resources
+2022-09-14 19:00:03,779 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 19:00:03,780 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\jdbctest\src\main\resources
+2022-09-14 19:00:03,780 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 19:00:03,781 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\jdbctest\src\test\resources
+2022-09-14 19:03:40,755 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 19:03:40,756 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\jdbctest\src\main\resources
+2022-09-14 19:03:40,757 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (utf-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-14 19:03:40,757 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SSAFY\workspace\db\jdbctest\src\test\resources

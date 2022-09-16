@@ -21,7 +21,7 @@ public class UpdateTest {
 		return DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/jdbc_test?serverTimezone=UTC&useUniCode=yes&characterEncoding=UTF-8", "ssafy", "ssafy");
 	}
 	
-	private int updateProduct(String productId, int upPrice, String color) {
+	private int updateProduct(String productId, int upPrice, String color) throws SQLException {
 		int cnt = 0;
 		Connection conn = null;
 		PreparedStatement pstmt = null;
@@ -43,13 +43,16 @@ public class UpdateTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
-			
+			if(pstmt != null)
+				pstmt.close();
+			if (conn != null)
+				conn.close();
 		}
 		
 		return cnt;
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException {
 		UpdateTest ut = new UpdateTest();
 		int cnt = ut.updateProduct("GS24", 50000, "빨주노초파남보");
 		
